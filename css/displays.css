@@ -1,0 +1,76 @@
+
+.add-comment {
+    font-family: Verdana, Arial, serif;
+    color: #5a722c;
+    text-decoration: none;
+    background: url('../img/lapiz.gif') 10px center no-repeat;
+    border: 1px solid #abbc8a;
+    padding: 4px 8px 4px 32px;
+}
+.add-comment span {
+    background: url('../img/punteado.gif') repeat-x left bottom;
+}
+
+.add-comment span:hover {
+    background: url('../img/punteado_gris.gif') repeat-x left bottom;
+}
+
+.add-comment:hover {
+    background-color: #5a722c;
+    color: white;
+
+    border: 1px dotted #fff;
+}
+
+.info {
+    border-top: 1px dotted #4d4d4d;
+    border-bottom: 1px dotted #4d4d4d;
+    color: #000;
+    background: url('../img/boca.png') no-repeat;
+    padding-left: 100px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #5a722c;
+    background: url('../img/flecha.png') no-repeat center left;
+    padding-left: 85px;
+    font-size: 20px;
+
+}
+
+p {
+    /* border: 1px solid red; */
+}
+
+span {
+    /* border:1px solid blue; */
+}
+
+
+p.block span {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+p.none span {
+    display:none;
+}
+
+#lucianita {
+    border: 1px dotted green;
+    display: inline-block;
+
+}
+
+#lucianita span{
+    color:red;
+    font-size: 50px;
+    border: 15px solid rgb(23, 91, 238);
+    margin: 30px;
+    display: inline-block;
+}

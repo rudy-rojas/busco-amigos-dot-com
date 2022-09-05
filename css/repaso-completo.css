@@ -1,0 +1,52 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.promocion {
+    width: 440px;
+    border: 1px solid rgb(198, 215, 230);
+    padding: 5px;
+    background-color: rgb(218, 218, 218);
+    
+}
+.center {
+    margin: 0 auto;
+}
+
+.promocion img {
+    margin: 0px;
+    padding: 0px;
+    border: 4px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+.promocion h2 {
+    font-family: Georgia, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background-color: yellowgreen;
+    color: white;
+    padding: 5px 15px;
+}
+
+.promocion p {
+    padding: 15px 10px;
+    color: white;
+    background: url('../img/degradado.png') repeat-x black;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.promocion p span {
+    display: block;
+}
+
+.promocion p span a {
+    color: greenyellow;
+    text-decoration: none;    
+}
+
+.promocion p span a:hover {
+    text-decoration: underline dotted;
+}

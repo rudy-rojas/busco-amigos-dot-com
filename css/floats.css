@@ -1,0 +1,18 @@
+#one {
+    float: left;
+    border: 1px solid red; 
+
+}
+
+#two {
+    float: right;
+    border: 1px solid green;
+}
+
+img {
+    margin: 5px;
+}
+
+p{
+    border: 1px solid orange;
+} 

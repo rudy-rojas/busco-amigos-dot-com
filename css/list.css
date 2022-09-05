@@ -1,0 +1,23 @@
+ul{
+    width: 250px;
+    border: 10px solid rgb(82, 226, 63);
+    padding: 15px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    background: url('../img/bullet.png') no-repeat 0px 2px;
+}
+ul li a {
+    text-decoration: none;
+
+    color: rgb(96, 96, 96);
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}

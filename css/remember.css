@@ -1,0 +1,45 @@
+/* body{
+    color: blue;
+}
+p + p {
+    background-color: greenyellow;
+}
+
+div > p {
+    border: 1px solid orange;
+}
+
+p {
+    background-color: yellow;
+}
+
+p{
+    background-color: violet;
+}
+ */
+
+/* PRIORITIES */
+#id-two {
+    background-color: green;
+    color: white;
+}
+
+#id-two {
+    background-color: green;
+    color: white;
+}
+
+.one {
+    background-color: blue;
+    color:white;
+}
+
+.two {
+    background-color: aqua;
+    color: black;
+}
+
+p {
+    background-color: yellow;
+    color: black;
+}

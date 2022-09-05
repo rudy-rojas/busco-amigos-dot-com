@@ -1,9 +1,6 @@
 @import './reset.css';
 
-body{
-    background-color: orange;
-}
-
-h1 {
-    color: red;
+/* selector types */
+p + p {
+    background-color: cyan;
 }
