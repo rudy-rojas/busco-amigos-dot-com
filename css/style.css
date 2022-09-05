@@ -1,6 +1,0 @@
-@import './reset.css';
-
-/* selector types */
-p + p {
-    background-color: cyan;
-}

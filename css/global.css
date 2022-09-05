@@ -1,0 +1,201 @@
+@import './reset.css';
+@import './composition.css';
+/* selector types */
+/* p + p {
+    background-color: cyan;
+} */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    background: #fff;
+    color: #6b6b6b;
+    background: url('../img/bg_body.png') #fff repeat-x  top left;
+    cursor: default;
+}
+
+h1, h2, h3 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: #d3d4d5 3px 3px 2px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 44px;
+    color: #acbd5a;
+}
+
+
+h2 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #acbd5a;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #acbd5a;
+}
+
+a{
+    text-decoration: underline;
+    color: #03b0f4;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    background: #afb2b4;
+    padding: 1px;
+    border: 10px solid #f3f4f6;
+}
+
+img:hover, div.friend:hover img {
+    background: #f3f4f6;
+    padding: 1px;
+    border: 10px solid #afb2b4;
+}
+
+#container{
+    background: url('../img/bg_gato.jpg') #fff no-repeat top left;
+}
+
+header {
+    background:url('../img/bg_perro.png') no-repeat top right;
+    /* border: 1px solid cyan; */
+    display: block;
+    height: 130px;
+}
+
+header p {
+    background: url('../img/bg_logo_ba.png') no-repeat top left;
+    width: 288px;
+    min-height: 100px;
+    margin: 0 0 0 150px;
+}
+
+header p a {
+    position: relative;
+    top: 45px;
+    width: 285px;
+    /* border: 1px solid red; */
+    display: block;
+    height: 40px;
+    display: block;
+    text-indent: -9999px;
+}
+
+span.friend {
+    font-weight: bold;
+}
+
+header p {
+    float: left;
+    /* border: 1px solid orange; */
+}
+
+header ul {
+    float: left;
+    margin: 15px 0 0 25px;
+}
+
+header li {
+    float: left;
+    font-weight: bold;;
+}
+
+header li+li {
+    border-left: 1px solid #727271;
+    margin-left: 8px;
+    padding-left: 8px;
+}
+
+#content p {
+    margin-right: 25px;
+    /* border: 1px solid cyan; */
+}
+#content p strong {
+    display: block;
+}
+#adopt-me{
+    display: block;
+}
+#adopt-me p {
+    float: left;
+    text-align: center;
+    width: 185px;
+}
+strong {
+    font-weight: bold;
+}
+
+#adopt-me div {
+    float: left;
+    width: 380px;
+}
+
+#adopt-me ol {
+    margin-top: 15px;
+}
+
+#adopt-me ol li {
+    padding-left: 30px;
+    min-height: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#adopt-me ol li.one {
+    background:url('../img/bg_uno.png') no-repeat 0 0;
+}
+#adopt-me ol li.two {
+    background:url('../img/bg_dos.png') no-repeat 0 0;
+}
+
+#adopt-me ol li.three {
+    background:url('../img/bg_tres.png') no-repeat 0 0;
+}
+
+#adopt-me a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    text-decoration: underline;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    padding: 5px 0 0 20px;
+    background: url('../img/bg_boton.png') no-repeat 0 0 ;
+    width: 251px;
+    height:32px;
+}
+
+#adopt-me a:hover {
+    background: url('../img/bg_boton_hover.png') no-repeat 0 0;
+    text-decoration: none;;
+}
+#content h3{
+    margin-top: 25px;
+}
+footer {
+    border-bottom: 25px solid #bbce62;
+    text-align: right;
+}
+
+footer p {
+    color: #b1c164;
+}
+
+footer a {
+    color: #8f9179;
+    font-weight: bold;
+}
